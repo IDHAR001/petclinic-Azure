@@ -1,0 +1,9 @@
+database: mysql
+
+spring:
+  datasource:
+    url: jdbc:mysql://petclinic-mysql-server.mysql.database.azure.com:3306/petclinic?useSSL=false&serverTimezone=UTC
+  DATASOURCE_USERNAME: root_pet
+    username: root_pet
+    password: Password1
+    initialization-mode: never
